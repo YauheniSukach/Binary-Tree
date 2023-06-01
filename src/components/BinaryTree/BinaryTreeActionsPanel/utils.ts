@@ -19,7 +19,7 @@ export const traverseBFS = (root: TreeNode, value: number) => {
     if (currentNode.rightChild) nodeQueue.enqueue(currentNode.rightChild);
   }
 
-  return null;
+  throw new Error('The node has not been found');
 };
 
 export const deleteNode = (

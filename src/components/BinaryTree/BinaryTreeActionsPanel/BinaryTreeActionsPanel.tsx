@@ -79,7 +79,17 @@ export const BinaryTreeActionsPanel: FC<BinaryTreeActionsPanelProps> = ({
   };
 
   const handleSearch = () => {
-    const result = traverseBFS(tree as TreeNode, searchValue);
+    let result;
+
+    try {
+      result = traverseBFS(tree as TreeNode, searchValue);
+    } catch (error) {
+      setSearchResultNodeId(null);
+
+      const currentError = error as Error;
+
+      setErrorMessage(currentError.message);
+    }
 
     if (result) {
       setSearchResultNodeId(result.id);
