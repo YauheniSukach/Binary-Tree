@@ -7,3 +7,4 @@
 3. Run npm install
 4. Run npm install -g json-server
 5. Run npm run dev
+6. Run json-server --watch mock-tree.json --port 3030
