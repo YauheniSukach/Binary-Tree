@@ -1,0 +1,15 @@
+.actionField {
+  display: flex;
+  flex-direction: row;
+
+  & > :first-child {
+    margin-right: 20px;
+  }
+}
+
+.actionFieldContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+}

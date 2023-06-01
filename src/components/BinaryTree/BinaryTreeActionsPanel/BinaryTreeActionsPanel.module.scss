@@ -1,0 +1,10 @@
+.binaryTreeActionsPanelContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & > :not(:last-child) {
+    margin-bottom: 20px;
+  }
+}

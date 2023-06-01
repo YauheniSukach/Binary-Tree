@@ -1,0 +1,30 @@
+{
+  "tree": {
+    "id": "11d76fb2-00b9-11ee-be56-0242ac120002",
+    "value": 10,
+    "leftChild": {
+      "id": "11d77336-00b9-11ee-be56-0242ac120002",
+      "value": 8,
+      "leftChild": {
+        "id": "11d77480-00b9-11ee-be56-0242ac120002",
+        "value": 7
+      },
+      "rightChild": {
+        "id": "11d775de-00b9-11ee-be56-0242ac120002",
+        "value": 9
+      }
+    },
+    "rightChild": {
+      "id": "11d776ec-00b9-11ee-be56-0242ac120002",
+      "value": 11,
+      "leftChild": {
+        "id": "11d777f0-00b9-11ee-be56-0242ac120002",
+        "value": 6
+      },
+      "rightChild": {
+        "id": "11d77944-00b9-11ee-be56-0242ac120002",
+        "value": 12
+      }
+    }
+  }
+}

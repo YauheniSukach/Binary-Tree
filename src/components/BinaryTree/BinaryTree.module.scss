@@ -1,0 +1,21 @@
+.binaryTree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.binaryTreeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & > :first-child {
+    margin-bottom: 100px;
+  }
+}
+
+.loaderContainer {
+  padding: 50px;
+}
